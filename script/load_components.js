@@ -1,7 +1,5 @@
 async function loadComponent(url, elementId){
     try{
-
-        // load html specific website
         if (elementId  === 'header-container') {
             if (window.location.pathname.includes('_HTML')) {
                 url = url.replace('header.html', 'header_HTML.html');
